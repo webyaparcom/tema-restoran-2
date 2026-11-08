@@ -1,0 +1,40 @@
+{
+  "id": "sznl7rhmui",
+  "name": {
+    "tr": "Şubeler",
+    "en": "Branches",
+    "ar": "الفروع"
+  },
+  "description": {
+    "tr": "Şubelerimiz ve çalışma saatleri.",
+    "en": "Our branches and opening hours.",
+    "ar": "فروعنا وساعات العمل."
+  },
+  "keyword": {
+    "tr": "şube, adres",
+    "en": "branches, address",
+    "ar": "فروع، عنوان"
+  },
+  "path": "subeler",
+  "icon": "storefront",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "8l5cs7",
+      "t5mp01"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Şubeler",
+    "en": "Branches",
+    "ar": "الفروع"
+  },
+  "date": "2026-10-31T14:17:42.028Z",
+  "update": "2026-11-05T22:24:45.226Z"
+}

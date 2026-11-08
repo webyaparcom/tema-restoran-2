@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "status": "play",
+  "id": "vizyon",
+  "path": "vizyon",
+  "category": "",
+  "text": {
+    "tr": "<h2>Vizyonumuz</h2>\n<p>Gaziantep’te ocakbaşı geleneğini şeffaf menü ve güvenli mutfakla yaşatan bir mekân olmak.</p>",
+    "en": "<h2>Our vision</h2>\n<p>To be a place that keeps the grill-house tradition of Gaziantep alive with a transparent menu and a safe kitchen.</p>",
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون مكانًا يُحيي تقليد المشواة في غازي عنتاب بقائمة شفافة ومطبخ آمن.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t5pd01",
+      "t5ca01"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 2,
+  "icon": "home",
+  "title": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "description": {
+    "tr": "Vizyonumuz",
+    "en": "Our vision",
+    "ar": "رؤيتنا"
+  },
+  "keyword": {},
+  "update": "2026-11-05T22:24:45.239Z",
+  "date": "2026-05-19"
+}

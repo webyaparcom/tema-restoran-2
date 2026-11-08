@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "id": "hakkimizda",
+  "path": "hakkimizda",
+  "category": "",
+  "text": {
+    "tr": "<h2>Hakkımızda</h2><p>Ateşhane, meşe közünde pişen etleri ve taş fırından çıkan hamur işlerini açık mutfağında misafiriyle paylaşan kurgusal bir demo ocakbaşıdır. Menümüzdeki her ürünün alerjen bilgisi eksiksiz yazılıdır; fiyatlar nihaidir.</p>",
+    "en": "<h2>About us</h2><p>Ateshane is a fictional demo grill house that shares meats cooked over oak embers and pastries from the stone oven with its guests in an open kitchen. Every item on our menu carries full allergen information; prices are final.</p>",
+    "ar": "<h2>من نحن</h2><p>أتيشهانه مطعم مشواة تجريبي افتراضي يشارك ضيوفه في مطبخه المفتوح اللحوم المطهوة على جمر السنديان والمعجنات الخارجة من الفرن الحجري. كل طبق في قائمتنا يحمل بيانًا كاملًا بمسببات الحساسية، والأسعار نهائية.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t5in01",
+      "7lg2xr"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 0,
+  "icon": "info",
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About us",
+    "ar": "من نحن"
+  },
+  "description": {
+    "tr": "Ateşhane hikâyesi.",
+    "en": "The story of Ateshane.",
+    "ar": "قصة أتيشهانه."
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "update": "2026-11-05T22:24:45.235Z",
+  "date": "2026-05-19"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "74rupgxet9",
+  "name": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "description": {
+    "tr": "Ocak, mekân ve tabaklardan fotoğraflar.",
+    "en": "Photos of the grill, the venue and the plates.",
+    "ar": "صور من المشواة والمكان والأطباق."
+  },
+  "keyword": {
+    "tr": "galeri, fotoğraf",
+    "en": "gallery, photos",
+    "ar": "معرض، صور"
+  },
+  "path": "galeri",
+  "icon": "photo_library",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "k65xsb"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "date": "2026-10-31T14:17:42.024Z",
+  "update": "2026-11-05T22:24:45.224Z"
+}

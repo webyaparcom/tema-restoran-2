@@ -1,0 +1,174 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Menü",
+        "en": "Menu",
+        "ar": "القائمة"
+      },
+      "status": "play",
+      "category": "",
+      "id": "yvi9dlb59o",
+      "url": "",
+      "path": "menu",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "mzrsfp"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Ateşhane menüsü: mangal, taş fırın, mezeler ve tatlılar; alerjen bilgisiyle.",
+        "en": "Ateshane menu: grill, stone oven, mezze and desserts with allergen information.",
+        "ar": "قائمة أتيشهانه: مشواة وفرن حجري ومقبلات وحلويات مع معلومات مسببات الحساسية."
+      },
+      "icon": "restaurant_menu"
+    },
+    {
+      "name": {
+        "tr": "Rezervasyon",
+        "en": "Reservation",
+        "ar": "الحجز"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hs54qzyeyo",
+      "url": "",
+      "path": "rezervasyon",
+      "index": 1,
+      "icon": "event_seat",
+      "desing": {
+        "header": [],
+        "body": [
+          "bv7byb"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Çevrimiçi masa rezervasyonu (demo).",
+        "en": "Online table reservation (demo).",
+        "ar": "حجز طاولة عبر الإنترنت (تجريبي)."
+      }
+    },
+    {
+      "id": "74rupgxet9",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Ocak, mekân ve tabaklardan fotoğraflar.",
+        "en": "Photos of the grill, the venue and the plates.",
+        "ar": "صور من المشواة والمكان والأطباق."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "k65xsb"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "sznl7rhmui",
+      "name": {
+        "tr": "Şubeler",
+        "en": "Branches",
+        "ar": "الفروع"
+      },
+      "description": {
+        "tr": "Şubelerimiz ve çalışma saatleri.",
+        "en": "Our branches and opening hours.",
+        "ar": "فروعنا وساعات العمل."
+      },
+      "path": "subeler",
+      "icon": "storefront",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "8l5cs7",
+          "t5mp01"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "id": "hmty92wp09",
+      "name": {
+        "tr": "Alerjen bilgisi",
+        "en": "Allergens",
+        "ar": "مسببات الحساسية"
+      },
+      "description": {
+        "tr": "Menüdeki alerjenlerin nasıl gösterildiği.",
+        "en": "How allergens are shown on the menu.",
+        "ar": "كيف تُعرض مسببات الحساسية في القائمة."
+      },
+      "path": "alerjen-bilgisi",
+      "icon": "health_and_safety",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "7y4ps1"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "6hh51m",
+          "t5mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, WhatsApp ve çalışma saatleri.",
+        "en": "Address, phone, WhatsApp and opening hours.",
+        "ar": "العنوان والهاتف وواتساب وساعات العمل."
+      }
+    }
+  ],
+  "desc": [],
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": true,
+    "detail": true,
+    "body": true
+  }
+}
