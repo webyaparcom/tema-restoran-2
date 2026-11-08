@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "",
+  "text": {
+    "tr": "<h2>Misyonumuz</h2>\n<p>Misyonumuz, eti ve hamuru gerçek ateşte, açık bilgiyle ve cömert bir tezgâhla misafirimize sunmaktır.</p>",
+    "en": "<h2>Our mission</h2>\n<p>Our mission is to serve meat and dough cooked over real fire, with clear information and a generous counter.</p>",
+    "ar": "<h2>مهمتنا</h2>\n<p>مهمتنا أن نقدّم اللحم والعجين المطهوّين على نار حقيقية مع معلومات واضحة وطاولة سخية.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "t5pd01",
+      "t5ca01"
+    ],
+    "footer": []
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "home",
+  "title": {
+    "tr": "Misyon",
+    "en": "Mission",
+    "ar": "المهمة"
+  },
+  "description": {
+    "tr": "Misyonumuz",
+    "en": "Our mission",
+    "ar": "مهمتنا"
+  },
+  "keyword": {},
+  "update": "2026-11-05T22:24:45.238Z",
+  "date": "2026-05-19"
+}

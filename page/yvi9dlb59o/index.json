@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "status": "play",
+  "category": "",
+  "id": "yvi9dlb59o",
+  "url": "",
+  "path": "menu",
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [
+      "mzrsfp"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Ateşhane menüsü: mangal, taş fırın, mezeler ve tatlılar; alerjen bilgisiyle.",
+    "en": "Ateshane menu: grill, stone oven, mezze and desserts with allergen information.",
+    "ar": "قائمة أتيشهانه: مشواة وفرن حجري ومقبلات وحلويات مع معلومات مسببات الحساسية."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Menü",
+    "en": "Menu",
+    "ar": "القائمة"
+  },
+  "keyword": {
+    "tr": "menü, kebap, fiyat, alerjen",
+    "en": "menu, kebab, prices, allergens",
+    "ar": "قائمة، كباب، أسعار، مسببات الحساسية"
+  },
+  "text": {},
+  "update": "2026-11-05T22:24:45.218Z",
+  "date": "2026-05-19",
+  "icon": "restaurant_menu"
+}

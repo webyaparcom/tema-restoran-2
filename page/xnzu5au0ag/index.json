@@ -1,0 +1,44 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "اتصل بنا"
+  },
+  "status": "play",
+  "category": "",
+  "id": "xnzu5au0ag",
+  "url": "",
+  "path": "iletisim",
+  "index": 5,
+  "icon": "call",
+  "desing": {
+    "header": [],
+    "body": [
+      "6hh51m",
+      "t5mp01"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Adres, telefon, WhatsApp ve çalışma saatleri.",
+    "en": "Address, phone, WhatsApp and opening hours.",
+    "ar": "العنوان والهاتف وواتساب وساعات العمل."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "İletişim",
+    "en": "Contact",
+    "ar": "اتصل بنا"
+  },
+  "keyword": {
+    "tr": "iletişim",
+    "en": "contact",
+    "ar": "اتصل بنا"
+  },
+  "update": "2026-11-05T22:24:45.232Z",
+  "date": "2026-05-19"
+}

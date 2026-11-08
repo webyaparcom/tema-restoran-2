@@ -1,0 +1,58 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Ateşhane: meşe közünde mangal ve taş fırın lezzetleri; alerjen kodlu menü ve çevrimiçi masa rezervasyonu. (Demo site)",
+    "en": "Ateshane: charcoal grill and stone-oven dishes over oak embers, with an allergen-coded menu and online table booking. (Demo site)",
+    "ar": "أتيشهانه: أطباق المشواة والفرن الحجري على جمر السنديان، مع قائمة برموز مسببات الحساسية وحجز طاولات عبر الإنترنت. (موقع تجريبي)"
+  },
+  "keyword": {
+    "tr": "ocakbaşı, mangal, kebap, menü, rezervasyon, alerjen",
+    "en": "grill house, charcoal, kebab, menu, reservation, allergen",
+    "ar": "مشواة، كباب، قائمة، حجز، مسببات الحساسية"
+  },
+  "category": "Kurumsal",
+  "name": "Ateşhane",
+  "domain": "restoran-2.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "icon": "icon.png",
+  "theme_color": "#E3A92B",
+  "phone": "+90 342 000 00 01",
+  "email": "masa@ateshane.example",
+  "publishMode": "static",
+  "colorScheme": "auto",
+  "seo": {
+    "noindex": true
+  },
+  "font": {
+    "body": "inter",
+    "heading": "barlow-condensed",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "2px",
+    "--mx-radius-md": "4px",
+    "--mx-radius-lg": "8px",
+    "--mx-radius-xl": "12px",
+    "--mx-shadow-md": "0 24px 60px rgba(0,0,0,.35)",
+    "--mx-dur": "280ms"
+  }
+}

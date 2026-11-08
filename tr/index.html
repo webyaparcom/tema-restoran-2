@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="tr" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <title>Ateşhane</title>
+  <meta name="description" content="Ateşhane: meşe közünde mangal ve taş fırın lezzetleri; alerjen kodlu menü ve çevrimiçi masa rezervasyonu. (Demo site)" />
+  <meta name="keywords" content="ocakbaşı, mangal, kebap, menü, rezervasyon, alerjen" />
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://restoran-2.webyapar.com/tr/" />
+  <link rel="alternate" hreflang="tr" href="https://restoran-2.webyapar.com/tr/" />
+  <link rel="alternate" hreflang="en" href="https://restoran-2.webyapar.com/en/" />
+  <link rel="alternate" hreflang="ar" href="https://restoran-2.webyapar.com/ar/" />
+  <link rel="alternate" hreflang="x-default" href="https://restoran-2.webyapar.com/tr/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ateşhane" />
+  <meta property="og:description" content="Ateşhane: meşe közünde mangal ve taş fırın lezzetleri; alerjen kodlu menü ve çevrimiçi masa rezervasyonu. (Demo site)" />
+  <meta property="og:url" content="https://restoran-2.webyapar.com/tr/" />
+  <meta property="og:image" content="https://restoran-2.webyapar.com/img/logo.png" />
+  <meta property="og:image:alt" content="Ateşhane" />
+  <meta property="og:site_name" content="Ateşhane" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_SA" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ateşhane" />
+  <meta name="twitter:description" content="Ateşhane: meşe közünde mangal ve taş fırın lezzetleri; alerjen kodlu menü ve çevrimiçi masa rezervasyonu. (Demo site)" />
+  <meta name="twitter:image" content="https://restoran-2.webyapar.com/img/logo.png" />
+
+  <meta name="theme-color" content="#E3A92B" />
+  <meta name="mx-api-base" content="none" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/inter/inter-latin-ext-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/fonts/inter.css?v=zj3j1" />
+  <link rel="stylesheet" href="/src/fonts/barlow-condensed.css?v=zj3j1" />
+  <link rel="stylesheet" href="/src/fonts/ibm-plex-sans-arabic.css?v=zj3j1" />
+  <link rel="stylesheet" href="/src/fonts/noto-kufi-arabic.css?v=zj3j1" />
+  <link rel="stylesheet" href="/src/rubik.css?v=zj3j1" />
+  <link rel="stylesheet" href="/src/css.css?v=zj3j1" />
+  <link rel="stylesheet" href="/src/mx-ds.css?v=zj3j1" />
+  
+  <link rel="stylesheet" href="/src/mx-ui.css?v=zj3j1" />
+  <link rel="preload" href="/src/material-symbols-outlined.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/src/material-symbols-outlined.css?v=zj3j1" />
+  
+  <link rel="stylesheet" href="/src/cookie.css?v=zj3j1" />
+  <link rel="stylesheet" href="/src/swiper-bundle.min.css?v=zj3j1" />
+  <link rel="shortcut icon" href="/img/icon.png?v=zj3j1" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://restoran-2.webyapar.com/#website",
+      "url": "https://restoran-2.webyapar.com/",
+      "name": "Ateşhane",
+      "description": "Ateşhane: meşe közünde mangal ve taş fırın lezzetleri; alerjen kodlu menü ve çevrimiçi masa rezervasyonu. (Demo site)",
+      "inLanguage": "tr",
+      "publisher": {
+        "@id": "https://restoran-2.webyapar.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://restoran-2.webyapar.com/#organization",
+      "name": "Ateşhane",
+      "url": "https://restoran-2.webyapar.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://restoran-2.webyapar.com/img/logo.png"
+      },
+      "image": "https://restoran-2.webyapar.com/img/logo.png",
+      "description": "Ateşhane: meşe közünde mangal ve taş fırın lezzetleri; alerjen kodlu menü ve çevrimiçi masa rezervasyonu. (Demo site)",
+      "telephone": "+90 342 000 00 01",
+      "email": "masa@ateshane.example",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+90 342 000 00 01",
+        "email": "masa@ateshane.example"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://restoran-2.webyapar.com/tr/#webpage",
+      "url": "https://restoran-2.webyapar.com/tr/",
+      "name": "Ateşhane",
+      "description": "Ateşhane: meşe közünde mangal ve taş fırın lezzetleri; alerjen kodlu menü ve çevrimiçi masa rezervasyonu. (Demo site)",
+      "inLanguage": "tr",
+      "isPartOf": {
+        "@id": "https://restoran-2.webyapar.com/#website"
+      },
+      "about": {
+        "@id": "https://restoran-2.webyapar.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://restoran-2.webyapar.com/img/logo.png"
+      }
+    }
+  ]
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=zj3j1">
+</head>
+
+<body>
+  <a class="mx-skip-link" href="#content">İçeriğe atla</a>
+  <script>
+    (function () {
+      window.user = window.user || { id: null, email: null, name: null, isLoggedIn: false, loginMethod: null };
+      var emptySnapshot = { empty: true, forEach: function () {} };
+      var emptyDoc = { exists: false, data: function () { return null; } };
+      if (typeof window.dataAddWeb !== "function") window.dataAddWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataDeleteWeb !== "function") window.dataDeleteWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataUpdateWeb !== "function") window.dataUpdateWeb = function () { return Promise.resolve(); };
+      if (typeof window.dataGetWeb !== "function") window.dataGetWeb = function () { return Promise.resolve(emptyDoc); };
+      if (typeof window.dataListWeb !== "function") window.dataListWeb = function () { return Promise.resolve(emptySnapshot); };
+      if (typeof window.authStateListenerWeb !== "function") {
+        window.authStateListenerWeb = function (cb) {
+          if (typeof cb === "function") setTimeout(function () { cb(null); }, 0);
+        };
+      }
+    })();
+  </script>
+  <div id="header"><div class="h0000-db" id="db-ey6ff6" role="region" aria-label="Demo site uyarısı" data-tone="info" style="--db-bg:var(--mx-site-text, #1b1b1b);--db-fg:var(--mx-site-bg, #ffffff)">
+  <span class="material-symbols-outlined h0000-db-icon" aria-hidden="true">info</span>
+  <p class="h0000-db-text">Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz</p>
+  <a class="h0000-db-cta" href="https://webyapar.com/temalar" target="_blank" rel="noopener noreferrer">
+    <span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span>
+    <span class="material-symbols-outlined mx-flip h0000-db-arrow" aria-hidden="true">arrow_forward</span>
+  </a>
+  
+</div>
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("db-ey6ff6");
+    if (!kok) {
+      return;
+    }
+    var itilenler = [];
+    var gorulen = [];
+
+    function ustaTasi() {
+      var govde = document.body;
+      if (!govde || kok.parentNode === govde) {
+        return;
+      }
+      var ilk = document.getElementById("header");
+      if (ilk && ilk.parentNode === govde) {
+        govde.insertBefore(kok, ilk);
+      } else {
+        govde.insertBefore(kok, govde.firstChild);
+      }
+    }
+
+    function adayMi(el) {
+      if (el === kok || kok.contains(el) || el.nodeType !== 1) {
+        return false;
+      }
+      var cs = window.getComputedStyle(el);
+      if ((cs.position !== "fixed" && cs.position !== "sticky") || cs.display === "none") {
+        return false;
+      }
+      
+      return parseFloat(cs.top) === 0 && el.offsetHeight > 0 && el.offsetHeight <= 200;
+    }
+
+    function it() {
+      var h = kok.offsetHeight;
+      document.documentElement.style.setProperty("--mx-demo-bandi-h", h + "px");
+      var liste = document.querySelectorAll("#header *, body > *");
+      for (var i = 0; i < liste.length; i++) {
+        var el = liste[i];
+        if (gorulen.indexOf(el) !== -1) {
+          continue;
+        }
+        if (adayMi(el)) {
+          gorulen.push(el);
+          itilenler.push(el);
+        }
+      }
+      for (var j = 0; j < itilenler.length; j++) {
+        itilenler[j].style.top = h + "px";
+      }
+    }
+
+    ustaTasi();
+    it();
+    window.addEventListener("load", function () {
+      ustaTasi();
+      it();
+      setTimeout(it, 400);
+      setTimeout(it, 1500);
+    });
+    window.addEventListener("resize", it);
+    if (window.ResizeObserver) {
+      new window.ResizeObserver(it).observe(kok);
+    }
+  })();
+</script>
+<header class="h0001-m10 h0001-m10--cta-butonlu" role="banner">
+  <div class="h0001-m10-scrim" aria-hidden="true"></div>
+  <div class="h0001-m10-ic">
+    <a class="h0001-m10-logo" href="/tr/" aria-label="Anasayfa - Ateşhane">
+      <img class="h0001-m10-logo-koyu" src="/img/logo.png" alt="Ateşhane" loading="eager" decoding="async" />
+      
+    </a>
+    <nav class="h0001-m10-nav" aria-label="Navigasyon">
+      <ul><li><a class="h0001-m10-oge" href="/tr/" aria-current="page">Anasayfa</a></li><li><a class="h0001-m10-oge" href="/tr/menu/">Menü</a></li><li><a class="h0001-m10-oge" href="/tr/rezervasyon/">Rezervasyon</a></li><li><a class="h0001-m10-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m10-oge" href="/tr/subeler/">Şubeler</a></li><li><a class="h0001-m10-oge" href="/tr/alerjen-bilgisi/">Alerjen bilgisi</a></li><li><a class="h0001-m10-oge" href="/tr/iletisim/">İletişim</a></li><li><a class="h0001-m10-oge" href="/tr/hakkimizda/">Hakkımızda</a></li></ul>
+    </nav>
+    <div class="h0001-m10-sag">
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+      <a class="h0001-m10-cta" href="/tr/rezervasyon/">Masa ayırt<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+      <button class="h0001-m10-hamburger" type="button" aria-expanded="false" aria-controls="m10-4ta28h-panel" aria-label="Menüyü Aç/Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+      </button>
+    </div>
+  </div>
+  <div class="h0001-m10-panel" id="m10-4ta28h-panel" hidden>
+    <div class="h0001-m10-panel-ust">
+      <a class="h0001-m10-logo h0001-m10-logo--panel" href="/tr/" aria-label="Anasayfa - Ateşhane">
+        <img src="/img/logo.png" alt="Ateşhane" loading="lazy" decoding="async" />
+      </a>
+      <button class="h0001-m10-kapat" type="button" aria-label="Menüyü Kapat">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <nav class="h0001-m10-panel-nav" aria-label="Navigasyon">
+      <ul><li><a class="h0001-m10-oge" href="/tr/" aria-current="page">Anasayfa</a></li><li><a class="h0001-m10-oge" href="/tr/menu/">Menü</a></li><li><a class="h0001-m10-oge" href="/tr/rezervasyon/">Rezervasyon</a></li><li><a class="h0001-m10-oge" href="/tr/galeri/">Galeri</a></li><li><a class="h0001-m10-oge" href="/tr/subeler/">Şubeler</a></li><li><a class="h0001-m10-oge" href="/tr/alerjen-bilgisi/">Alerjen bilgisi</a></li><li><a class="h0001-m10-oge" href="/tr/iletisim/">İletişim</a></li><li><a class="h0001-m10-oge" href="/tr/hakkimizda/">Hakkımızda</a></li></ul>
+    </nav>
+    <div class="h0001-m10-panel-alt">
+      <a class="h0001-m10-cta" href="/tr/rezervasyon/">Masa ayırt<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+    </div>
+  </div>
+</header>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".h0001-m10");
+    if (!kok) { return; }
+    var dugme = kok.querySelector(".h0001-m10-hamburger");
+    var panel = kok.querySelector(".h0001-m10-panel");
+    var kapat = kok.querySelector(".h0001-m10-kapat");
+
+    
+    function heroMu(el) {
+      if (!el || el.nodeType !== 1) { return false; }
+      if (el.hasAttribute("data-mx-hero")) { return true; }
+      var c = String(el.className || "");
+      return /(^|\s)[bhf]\d{4}-(hero|h\d|kb)(\s|$|-)/.test(c) || /hero|slider|swiper|kenburns/i.test(c);
+    }
+    
+    var heroVar = true, deneme = 0, bekliyor = false, sabit = false;
+    function heroKarar() {
+      var icerik = document.getElementById("content");
+      var ilk = icerik ? icerik.firstElementChild : null;
+      if (!ilk && deneme < 40 && document.readyState === "loading") { deneme++; setTimeout(heroKarar, 25); return; }
+      heroVar = heroMu(kok.nextElementSibling) || heroMu(ilk);
+      if (!heroVar) {
+        kok.classList.add("h0001-m10-akista");
+        kok.classList.add("h0001-m10-kati");
+      } else {
+        kok.classList.remove("h0001-m10-akista");
+        if (!sabit) { kok.classList.remove("h0001-m10-kati"); }
+      }
+      uygula();
+    }
+
+    
+    function uygula() {
+      bekliyor = false;
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if (!sabit && y > 40) {
+        kok.classList.add("h0001-m10-kati");
+        kok.classList.add("h0001-m10-sabit");
+        sabit = true;
+      } else if (sabit && y <= 4) {
+        kok.classList.remove("h0001-m10-sabit");
+        if (heroVar) { kok.classList.remove("h0001-m10-kati"); }
+        sabit = false;
+      }
+    }
+    window.addEventListener("scroll", function () { if (!bekliyor) { bekliyor = true; window.requestAnimationFrame(uygula); } }, { passive: true });
+    heroKarar();
+    window.addEventListener("load", heroKarar);
+
+    
+    function ac() {
+      if (!panel) { return; }
+      panel.hidden = false;
+      if (dugme) { dugme.setAttribute("aria-expanded", "true"); }
+      document.body.style.overflow = "hidden";
+      if (kapat) { kapat.focus(); }
+    }
+    function kapa() {
+      if (!panel || panel.hidden) { return; }
+      panel.hidden = true;
+      if (dugme) { dugme.setAttribute("aria-expanded", "false"); dugme.focus(); }
+      document.body.style.overflow = "";
+    }
+    if (dugme) { dugme.addEventListener("click", function () { if (panel && panel.hidden) { ac(); } else { kapa(); } }); }
+    if (kapat) { kapat.addEventListener("click", kapa); }
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { kapa(); } });
+  })();
+</script>
+</div>
+  <div id="content"><section class="b0000-h5 b0000-h5--sol b0000-h5-hiza-orta" data-mx-hero="1" aria-labelledby="h5-oaat4n-baslik" style="--h5-yk: 92;">
+  <div class="b0000-h5-arka" aria-hidden="true"><img src="/img/restoran-hero-salon.webp" alt="Gece ışıklı ocakbaşı salonu" width="1920" height="1080" loading="eager" fetchpriority="high" decoding="async" /></div>
+  <div class="b0000-h5-scrim" aria-hidden="true"></div>
+  <div class="b0000-h5-wrap">
+    <div class="b0000-h5-icerik">
+      <p class="b0000-h5-eyebrow b0000-h5-in">Ocakbaşı · Gaziantep</p>
+      <h1 class="b0000-h5-baslik b0000-h5-in" id="h5-oaat4n-baslik">Meşe közünde pişen gece</h1>
+      <p class="b0000-h5-metin b0000-h5-in">Tezgâh başında şiş, taş fırından hamur, bahçede serin akşam. Alerjen kodlu menü, nihai fiyat.</p>
+      <div class="b0000-h5-ctalar b0000-h5-in"><a class="b0000-h5-cta b0000-h5-cta--dolgu" href="/tr/menu/">Menüyü gör<span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0000-h5-cta b0000-h5-cta--cerceve" href="/tr/rezervasyon/">Masa ayırt</a></div>
+    </div>
+  </div>
+  <a class="b0000-h5-ok" href="#h5-oaat4n-son" aria-label="Aşağı kaydır">
+    <span class="material-symbols-outlined" aria-hidden="true">keyboard_arrow_down</span>
+  </a>
+  <span id="h5-oaat4n-son" class="b0000-h5-son" aria-hidden="true"></span>
+</section>
+
+
+<script>
+  (function () {
+    var kok = document.querySelector(".b0000-h5");
+    if (!kok) { return; }
+    var arka = kok.querySelector(".b0000-h5-arka");
+    var video = kok.querySelector(".b0000-h5-arka video");
+    var ok = kok.querySelector(".b0000-h5-ok");
+    var azalt = false;
+    try { azalt = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
+
+    
+    if (ok) {
+      ok.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        var hedef = kok.getBoundingClientRect().bottom + (window.pageYOffset || document.documentElement.scrollTop || 0);
+        try { window.scrollTo({ top: hedef, behavior: azalt ? "auto" : "smooth" }); } catch (e2) { window.scrollTo(0, hedef); }
+      });
+    }
+
+    if (azalt) {
+      if (video) { try { video.pause(); video.removeAttribute("autoplay"); } catch (e3) {  } }
+      return;
+    }
+    if (video) { try { var p = video.play(); if (p && p.catch) { p.catch(function () {  }); } } catch (e4) {  } }
+
+    
+    kok.classList.add("b0000-h5-js");
+    setTimeout(function () { kok.classList.add("b0000-h5-goster"); }, 80);
+
+    
+    var bekliyor = false;
+    function uygula() {
+      bekliyor = false;
+      var r = kok.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > window.innerHeight) { return; }
+      var kayma = Math.max(0, -r.top) * 0.25;
+      arka.style.transform = "translate3d(0," + kayma.toFixed(1) + "px,0)";
+    }
+    if (arka) {
+      window.addEventListener("scroll", function () {
+        if (!bekliyor) { bekliyor = true; window.requestAnimationFrame(uygula); }
+      }, { passive: true });
+      uygula();
+    }
+  })();
+</script>
+<section class="b0001-s2 b0001-s2-ayrik-cizgili b0001-s2-desen-cizgiler" id="s2-7lg2xr" data-s2-dil="tr" data-s2-sure="1000" style="--s2-n:4">
+  <span class="b0001-s2-desen" aria-hidden="true"></span>
+  <div class="b0001-s2-wrap">
+    
+    <ul class="b0001-s2-list"><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">outdoor_grill</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="18" data-s2-ondalik="0">18</span></bdi></div><p class="b0001-s2-etiket">Közde pişen çeşit</p><p class="b0001-s2-aciklama">Mangal ve fırın menüsü</p></li><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">fact_check</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="14" data-s2-ondalik="0">14</span></bdi></div><p class="b0001-s2-etiket">Alerjen kodu</p><p class="b0001-s2-aciklama">Her üründe yazılı</p></li><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">table_restaurant</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="96" data-s2-ondalik="0">96</span></bdi></div><p class="b0001-s2-etiket">Kişilik salon ve teras</p><p class="b0001-s2-aciklama">Tezgâh dahil</p></li><li class="b0001-s2-item"><span class="b0001-s2-ikon" aria-hidden="true"><span class="material-symbols-outlined">schedule</span></span><div class="b0001-s2-deger"><bdi dir="ltr"><span class="b0001-s2-sayi" data-s2-hedef="7" data-s2-ondalik="0">7</span><span class="b0001-s2-sonek">/7</span></bdi></div><p class="b0001-s2-etiket">Gün açık</p><p class="b0001-s2-aciklama">17:00 – 00:30</p></li></ul>
+  </div>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("s2-7lg2xr");
+    if (!kok || kok.getAttribute("data-s2-hazir") === "1") { return; }
+    kok.setAttribute("data-s2-hazir", "1");
+    var azalt = false;
+    try { azalt = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
+    if (azalt || !("IntersectionObserver" in window) || !window.requestAnimationFrame) { return; }
+    var dil = (kok.getAttribute("data-s2-dil") || document.documentElement.getAttribute("lang") || "tr").split("-")[0];
+    var sure = parseInt(kok.getAttribute("data-s2-sure"), 10);
+    if (!isFinite(sure) || sure < 200) { sure = 1000; }
+    var bicim = null;
+    function yaz(n, ondalik) {
+      try {
+        if (!bicim) { bicim = {}; }
+        if (!bicim[ondalik]) { bicim[ondalik] = new Intl.NumberFormat(dil + "-u-nu-latn", { minimumFractionDigits: ondalik, maximumFractionDigits: ondalik }); }
+        return bicim[ondalik].format(n);
+      } catch (e) { return n.toFixed(ondalik); }
+    }
+    function say(el) {
+      var hedef = parseFloat(el.getAttribute("data-s2-hedef"));
+      var ondalik = parseInt(el.getAttribute("data-s2-ondalik"), 10) || 0;
+      if (!isFinite(hedef)) { return; }
+      var bas = null;
+      function adim(ts) {
+        if (bas === null) { bas = ts; }
+        var p = Math.min(1, (ts - bas) / sure);
+        var e = 1 - Math.pow(1 - p, 3);
+        el.textContent = yaz(hedef * e, ondalik);
+        if (p < 1) { window.requestAnimationFrame(adim); } else { el.textContent = yaz(hedef, ondalik); }
+      }
+      el.textContent = yaz(0, ondalik);
+      window.requestAnimationFrame(adim);
+    }
+    var sayilar = kok.querySelectorAll(".b0001-s2-sayi[data-s2-hedef]");
+    var io = new IntersectionObserver(function (girdiler) {
+      var j;
+      for (j = 0; j < girdiler.length; j++) {
+        if (girdiler[j].isIntersecting) { say(girdiler[j].target); io.unobserve(girdiler[j].target); }
+      }
+    }, { threshold: 0.4 });
+    var i;
+    for (i = 0; i < sayilar.length; i++) { io.observe(sayilar[i]); }
+  })();
+</script>
+<section class="b0002-hs b0002-hs-kart-gecis" id="hs-fnskia">
+  <div class="b0002-hs-wrap">
+    <header class="b0002-hs-head"><p class="b0002-hs-eyebrow">Mutfak</p><h2 class="b0002-hs-title">Ateşin dört hâli</h2><p class="b0002-hs-desc">Mangal, taş fırın, meze tezgâhı ve tatlı; her bölümün alerjen bilgisi menüde.</p></header>
+    <div class="b0002-hs-body">
+      <div class="b0002-hs-tabs" role="tablist" aria-label="Hizmet sekmeleri" aria-orientation="horizontal"><button type="button" class="b0002-hs-tab" role="tab" id="hs-fnskia-t0" aria-controls="hs-fnskia-p0" aria-selected="true" tabindex="0"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">outdoor_grill</span></span><span class="b0002-hs-tab-ad">Mangal</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-fnskia-t1" aria-controls="hs-fnskia-p1" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">bakery_dining</span></span><span class="b0002-hs-tab-ad">Taş fırın</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-fnskia-t2" aria-controls="hs-fnskia-p2" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">restaurant</span></span><span class="b0002-hs-tab-ad">Meze tezgâhı</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button><button type="button" class="b0002-hs-tab" role="tab" id="hs-fnskia-t3" aria-controls="hs-fnskia-p3" aria-selected="false" tabindex="-1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">cake</span></span><span class="b0002-hs-tab-ad">Tatlı</span><span class="b0002-hs-ok" aria-hidden="true"><span class="material-symbols-outlined">arrow_forward</span></span></button></div>
+      <div class="b0002-hs-panels"><div class="b0002-hs-panel b0002-hs-on" role="tabpanel" id="hs-fnskia-p0" aria-labelledby="hs-fnskia-t0" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="true" aria-controls="hs-fnskia-p0"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">outdoor_grill</span></span><span class="b0002-hs-tab-ad">Mangal</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/restoran-menu-kebap.webp" alt="Közde şiş" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Mangal</h3><p class="b0002-hs-panel-ozet">Meşe közü, zırhla çekilmiş et, sumaklı soğan.</p><p class="b0002-hs-maddeler-baslik">Öne çıkanlar</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Kuzu şiş</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Adana kebap</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Közlenmiş sebze</span></li></ul><a class="b0002-hs-btn" href="/tr/menu/"><span>Menüde gör</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-fnskia-p1" aria-labelledby="hs-fnskia-t1" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-fnskia-p1"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">bakery_dining</span></span><span class="b0002-hs-tab-ad">Taş fırın</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/restoran-menu-lahmacun.webp" alt="Taş fırın lahmacun" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Taş fırın</h3><p class="b0002-hs-panel-ozet">Günlük hamur, ince lahmacun, kaşarlı pide.</p><p class="b0002-hs-maddeler-baslik">Öne çıkanlar</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>İnce lahmacun</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Kaşarlı pide</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Fırın güveç</span></li></ul><a class="b0002-hs-btn" href="/tr/menu/"><span>Menüde gör</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-fnskia-p2" aria-labelledby="hs-fnskia-t2" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-fnskia-p2"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">restaurant</span></span><span class="b0002-hs-tab-ad">Meze tezgâhı</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/restoran-menu-salata.webp" alt="Çoban salata" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Meze tezgâhı</h3><p class="b0002-hs-panel-ozet">Taze ezmeler, salatalar, sıcak börekler.</p><p class="b0002-hs-maddeler-baslik">Öne çıkanlar</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Acılı ezme</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Humus</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Sigara böreği</span></li></ul><a class="b0002-hs-btn" href="/tr/menu/"><span>Menüde gör</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div><div class="b0002-hs-panel" role="tabpanel" id="hs-fnskia-p3" aria-labelledby="hs-fnskia-t3" tabindex="0"><button type="button" class="b0002-hs-acc" aria-expanded="false" aria-controls="hs-fnskia-p3"><span class="b0002-hs-ikon"><span class="material-symbols-outlined" aria-hidden="true">cake</span></span><span class="b0002-hs-tab-ad">Tatlı</span><span class="b0002-hs-acc-ok" aria-hidden="true"><span class="material-symbols-outlined">expand_more</span></span></button><div class="b0002-hs-panel-in"><div class="b0002-hs-media"><img src="/img/restoran-menu-baklava.webp" alt="Fıstıklı baklava" width="1200" height="675" loading="lazy" decoding="async" /></div><div class="b0002-hs-metin"><h3 class="b0002-hs-panel-ad">Tatlı</h3><p class="b0002-hs-panel-ozet">Antep fıstığı, tereyağı, sıcak künefe.</p><p class="b0002-hs-maddeler-baslik">Öne çıkanlar</p><ul class="b0002-hs-maddeler"><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Fıstıklı baklava</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Künefe</span></li><li><span class="material-symbols-outlined" aria-hidden="true">check_circle</span><span>Sütlaç</span></li></ul><a class="b0002-hs-btn" href="/tr/menu/"><span>Menüde gör</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></div></div></div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("hs-fnskia");
+    if (!kok || kok.getAttribute("data-hs-hazir") === "1") { return; }
+    kok.setAttribute("data-hs-hazir", "1");
+    kok.className += " b0002-hs-js";
+    var sekmeler = kok.querySelectorAll(".b0002-hs-tab");
+    var paneller = kok.querySelectorAll(".b0002-hs-panel");
+    var accler = kok.querySelectorAll(".b0002-hs-acc");
+    var yatay = kok.querySelector(".b0002-hs-tabs").getAttribute("aria-orientation") !== "vertical";
+    var n = sekmeler.length;
+    if (!n) { return; }
+
+    function rtlMi() {
+      var el = kok;
+      while (el && el !== document.documentElement) {
+        if (el.getAttribute("dir")) { return el.getAttribute("dir") === "rtl"; }
+        el = el.parentNode;
+      }
+      return (document.documentElement.getAttribute("dir") || "") === "rtl";
+    }
+
+    function sec(i, odakla) {
+      var j;
+      for (j = 0; j < n; j++) {
+        var acik = j === i;
+        sekmeler[j].setAttribute("aria-selected", acik ? "true" : "false");
+        sekmeler[j].setAttribute("tabindex", acik ? "0" : "-1");
+        if (paneller[j]) {
+          if (acik) { paneller[j].className += " b0002-hs-on"; }
+          else { paneller[j].className = paneller[j].className.replace(/\s*b0002-hs-on\b/g, ""); }
+        }
+        if (accler[j]) { accler[j].setAttribute("aria-expanded", acik ? "true" : "false"); }
+      }
+      if (odakla) { sekmeler[i].focus(); }
+    }
+
+    function tusla(ev) {
+      var i = parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10);
+      var k = ev.key;
+      var ileri = yatay ? (rtlMi() ? "ArrowLeft" : "ArrowRight") : "ArrowDown";
+      var geri = yatay ? (rtlMi() ? "ArrowRight" : "ArrowLeft") : "ArrowUp";
+      var hedef = -1;
+      if (k === ileri) { hedef = (i + 1) % n; }
+      else if (k === geri) { hedef = (i - 1 + n) % n; }
+      else if (k === "Home") { hedef = 0; }
+      else if (k === "End") { hedef = n - 1; }
+      if (hedef !== -1) { ev.preventDefault(); sec(hedef, true); }
+    }
+
+    var i;
+    for (i = 0; i < n; i++) {
+      sekmeler[i].setAttribute("data-hs-i", String(i));
+      sekmeler[i].addEventListener("click", function (ev) { sec(parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10), false); });
+      sekmeler[i].addEventListener("keydown", tusla);
+      if (accler[i]) {
+        accler[i].setAttribute("data-hs-i", String(i));
+        accler[i].addEventListener("click", function (ev) {
+          var idx = parseInt(ev.currentTarget.getAttribute("data-hs-i"), 10);
+          var acikMi = ev.currentTarget.getAttribute("aria-expanded") === "true";
+          if (acikMi) {
+            
+            paneller[idx].className = paneller[idx].className.replace(/\s*b0002-hs-on\b/g, "");
+            ev.currentTarget.setAttribute("aria-expanded", "false");
+          } else { sec(idx, false); }
+        });
+      }
+    }
+    sec(0, false);
+  })();
+</script>
+<section class="b0003-zz b0003-zz-sade" id="zz-84o844">
+  <div class="b0003-zz-wrap">
+    <header class="b0003-zz-head"><p class="b0003-zz-eyebrow">Neden Ateşhane</p><h2 class="b0003-zz-title">Üç şeyi iyi yaparız</h2><p class="b0003-zz-desc">Közü, hamuru ve akşamı.</p></header>
+    <div class="b0003-zz-rows"><article class="b0003-zz-row"><div class="b0003-zz-media"><img class="b0003-zz-img" src="/img/restoran-galeri-ocak.webp" alt="Közde pişen şişler" width="1200" height="900" loading="lazy" decoding="async" /></div><div class="b0003-zz-metin"><span class="b0003-zz-no" aria-hidden="true">01</span><h3 class="b0003-zz-h">Gerçek meşe közü</h3><p class="b0003-zz-p">Gaz yok, elektrik yok: her şiş meşe közünde, usta gözetiminde pişer.</p><a class="b0003-zz-link" href="/tr/menu/"><span>Daha fazla</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></article><article class="b0003-zz-row"><div class="b0003-zz-media"><img class="b0003-zz-img" src="/img/restoran-mutfak-sef.webp" alt="Hamur yoğuran eller" width="1200" height="900" loading="lazy" decoding="async" /></div><div class="b0003-zz-metin"><span class="b0003-zz-no" aria-hidden="true">02</span><h3 class="b0003-zz-h">Günlük hamur</h3><p class="b0003-zz-p">Lahmacun ve pide hamuru her sabah yoğrulur, taş fırında dakikalar içinde pişer.</p><a class="b0003-zz-link" href="/tr/menu/"><span>Daha fazla</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></article><article class="b0003-zz-row"><div class="b0003-zz-media"><img class="b0003-zz-img" src="/img/restoran-mekan-2.webp" alt="Akşam ışıklı teras" width="1200" height="900" loading="lazy" decoding="async" /></div><div class="b0003-zz-metin"><span class="b0003-zz-no" aria-hidden="true">03</span><h3 class="b0003-zz-h">Teras akşamları</h3><p class="b0003-zz-p">Yaz aylarında teras, kış aylarında ocak başı; rezervasyonla yerinizi seçin.</p><a class="b0003-zz-link" href="/tr/rezervasyon/"><span>Daha fazla</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a></div></article></div>
+  </div>
+</section>
+
+
+
+<script>
+  
+  (function () {
+    var kok = document.getElementById("zz-84o844");
+    if (!kok || kok.getAttribute("data-zz-hazir") === "1") { return; }
+    kok.setAttribute("data-zz-hazir", "1");
+    var azalt = false;
+    try { azalt = window.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) { azalt = false; }
+    if (azalt || !("IntersectionObserver" in window)) { return; }
+    var satirlar = kok.querySelectorAll(".b0003-zz-row");
+    var i;
+    for (i = 0; i < satirlar.length; i++) { satirlar[i].className += " b0003-zz-gizli"; }
+    var io = new IntersectionObserver(function (girdiler) {
+      var j;
+      for (j = 0; j < girdiler.length; j++) {
+        if (girdiler[j].isIntersecting) {
+          girdiler[j].target.className += " b0003-zz-gorun";
+          io.unobserve(girdiler[j].target);
+        }
+      }
+    }, { threshold: 0.2, rootMargin: "0px 0px -40px 0px" });
+    for (i = 0; i < satirlar.length; i++) { io.observe(satirlar[i]); }
+  })();
+</script>
+<section class="b0004-t3 b0004-t3--buyuk-alinti" id="t3-n6g59g">
+  <div class="b0004-t3__wrap">
+    <header class="b0004-t3__head"><h2 class="b0004-t3__title">Misafirlerimiz</h2><p class="b0004-t3__desc">Kurgusal demo yorumlar.</p></header>
+    <div class="b0004-t3__kar" role="region" aria-roledescription="carousel" aria-label="Müşteri yorumları">
+      <div class="b0004-t3__viewport">
+        <ul class="b0004-t3__track"><li class="b0004-t3__slide" role="group" aria-roledescription="slide" aria-label="1 / 3"><article class="b0004-t3__card"><div class="b0004-t3__top"><span class="b0004-t3__stars" role="img" aria-label="5 üzerinden 5 yıldız"><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span></span><span class="b0004-t3__q material-symbols-outlined" aria-hidden="true">format_quote</span></div><blockquote class="b0004-t3__text"><p>Tezgâhta oturup şişlerin közde dönüşünü izlemek ayrı bir keyif. Alerjen kodları menüde açık, sormaya gerek kalmadı.</p></blockquote><footer class="b0004-t3__person"><span class="b0004-t3__avatar b0004-t3__avatar--bas" aria-hidden="true">DA</span><div class="b0004-t3__who"><cite class="b0004-t3__name">Deniz A.</cite><span class="b0004-t3__role">Misafir (demo yorum)</span></div></footer></article></li><li class="b0004-t3__slide" role="group" aria-roledescription="slide" aria-label="2 / 3"><article class="b0004-t3__card"><div class="b0004-t3__top"><span class="b0004-t3__stars" role="img" aria-label="5 üzerinden 5 yıldız"><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span></span><span class="b0004-t3__q material-symbols-outlined" aria-hidden="true">format_quote</span></div><blockquote class="b0004-t3__text"><p>Kuzu şiş tam kıvamında; terasta gece serinliğinde yemek güzeldi. Rezervasyon birkaç dakikada tamamlandı.</p></blockquote><footer class="b0004-t3__person"><span class="b0004-t3__avatar b0004-t3__avatar--bas" aria-hidden="true">HB</span><div class="b0004-t3__who"><cite class="b0004-t3__name">Hakan B.</cite><span class="b0004-t3__role">Misafir (demo yorum)</span></div></footer></article></li><li class="b0004-t3__slide" role="group" aria-roledescription="slide" aria-label="3 / 3"><article class="b0004-t3__card"><div class="b0004-t3__top"><span class="b0004-t3__stars" role="img" aria-label="5 üzerinden 4 yıldız"><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star b0004-t3__star--on" aria-hidden="true">star</span><span class="material-symbols-outlined b0004-t3__star" aria-hidden="true">star</span></span><span class="b0004-t3__q material-symbols-outlined" aria-hidden="true">format_quote</span></div><blockquote class="b0004-t3__text"><p>Taş fırın pide ve künefe için tekrar geleceğiz. Hafta sonu için erken yer ayırtmanızı öneririm.</p></blockquote><footer class="b0004-t3__person"><span class="b0004-t3__avatar b0004-t3__avatar--bas" aria-hidden="true">MÖ</span><div class="b0004-t3__who"><cite class="b0004-t3__name">Melis Ö.</cite><span class="b0004-t3__role">Misafir (demo yorum)</span></div></footer></article></li></ul>
+      </div>
+      <div class="b0004-t3__ctrl" hidden>
+        <button type="button" class="b0004-t3__ok b0004-t3__ok--prev" aria-label="Önceki yorum"><span class="material-symbols-outlined" aria-hidden="true">arrow_back</span></button>
+        <div class="b0004-t3__dots"></div>
+        <button type="button" class="b0004-t3__ok b0004-t3__ok--next" aria-label="Sonraki yorum"><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></button>
+        <button type="button" class="b0004-t3__play" aria-pressed="false" aria-label="Otomatik kaydırmayı durdur"><span class="material-symbols-outlined" aria-hidden="true">pause</span></button>
+      </div>
+      <p class="b0004-t3__live mx-visually-hidden" aria-live="polite" aria-atomic="true"></p>
+    </div>
+  </div>
+  <script type="application/json" id="t3-n6g59g-veri">{"stil":"buyuk-alinti","autoplay":true,"interval":6000,"dot":"{n}. sayfa","pause":"Otomatik kaydırmayı durdur","play":"Otomatik kaydırmayı başlat"}</script>
+</section>
+
+
+
+<script>
+  (function () {
+    var kok = document.getElementById("t3-n6g59g");
+    if (!kok || kok.getAttribute("data-t3-hazir") === "1") { return; }
+    kok.setAttribute("data-t3-hazir", "1");
+    var veri = {};
+    try { veri = JSON.parse(document.getElementById("t3-n6g59g-veri").textContent); } catch (e) { veri = {}; }
+    var azHareket = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (window.IntersectionObserver && !azHareket) {
+      kok.setAttribute("data-t3-anim", "1");
+      var io = new IntersectionObserver(function (g) {
+        for (var i = 0; i < g.length; i++) { if (g[i].isIntersecting) { kok.classList.add("is-in"); io.disconnect(); } }
+      }, { threshold: 0.1 });
+      io.observe(kok);
+    }
+    if (veri.stil === "masonry") { return; }
+
+    var kar = kok.querySelector(".b0004-t3__kar");
+    var viewport = kok.querySelector(".b0004-t3__viewport");
+    var track = kok.querySelector(".b0004-t3__track");
+    var slides = kok.querySelectorAll(".b0004-t3__slide");
+    var ctrl = kok.querySelector(".b0004-t3__ctrl");
+    var dotsKap = kok.querySelector(".b0004-t3__dots");
+    var btnPrev = kok.querySelector(".b0004-t3__ok--prev");
+    var btnNext = kok.querySelector(".b0004-t3__ok--next");
+    var btnPlay = kok.querySelector(".b0004-t3__play");
+    var live = kok.querySelector(".b0004-t3__live");
+    var n = slides.length;
+    if (!track || n < 2) { if (kar) { kar.classList.add("is-static"); } return; }
+    var rtl = (document.documentElement.getAttribute("dir") || "").toLowerCase() === "rtl";
+
+    var sayfa = 0, sayfaSayisi = 1, gorunen = 1, zamanlayici = null, elleDurdu = false, askida = false;
+
+    function gorunenSayisi() {
+      var v = parseInt(getComputedStyle(kok).getPropertyValue("--t3-n"), 10);
+      return isFinite(v) && v > 0 ? v : 1;
+    }
+    function noktalariKur() {
+      if (!dotsKap) { return; }
+      dotsKap.innerHTML = "";
+      for (var i = 0; i < sayfaSayisi; i++) {
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "b0004-t3__dot";
+        b.setAttribute("aria-label", String(veri.dot || "{n}").replace(/\{n\}/g, String(i + 1)));
+        b.setAttribute("data-t3-sayfa", String(i));
+        b.addEventListener("click", function (ev) { git(parseInt(ev.currentTarget.getAttribute("data-t3-sayfa"), 10), true); });
+        dotsKap.appendChild(b);
+      }
+    }
+    function git(hedef, kullanici) {
+      sayfa = ((hedef % sayfaSayisi) + sayfaSayisi) % sayfaSayisi;
+      var ofset = Math.min(sayfa * gorunen, Math.max(0, n - gorunen));
+      var gen = viewport.clientWidth / gorunen;
+      track.style.transform = "translateX(" + ((rtl ? 1 : -1) * ofset * gen) + "px)";
+      for (var i = 0; i < n; i++) {
+        var gizli = i < ofset || i >= ofset + gorunen;
+        if (gizli) { slides[i].setAttribute("aria-hidden", "true"); } else { slides[i].removeAttribute("aria-hidden"); }
+        var odaklar = slides[i].querySelectorAll("a, button");
+        for (var j = 0; j < odaklar.length; j++) { if (gizli) { odaklar[j].setAttribute("tabindex", "-1"); } else { odaklar[j].removeAttribute("tabindex"); } }
+      }
+      var dots = dotsKap ? dotsKap.children : [];
+      for (var d = 0; d < dots.length; d++) { if (d === sayfa) { dots[d].setAttribute("aria-current", "true"); } else { dots[d].removeAttribute("aria-current"); } }
+      if (kullanici && live) { live.textContent = String(veri.dot || "{n}").replace(/\{n\}/g, String(sayfa + 1)); }
+    }
+    function yerlestir() {
+      gorunen = gorunenSayisi();
+      sayfaSayisi = Math.max(1, Math.ceil(n / gorunen));
+      noktalariKur();
+      git(Math.min(sayfa, sayfaSayisi - 1), false);
+    }
+    function dur() { if (zamanlayici) { clearInterval(zamanlayici); zamanlayici = null; } }
+    function basla() {
+      dur();
+      if (!veri.autoplay || azHareket || elleDurdu || askida) { return; }
+      zamanlayici = setInterval(function () { git(sayfa + 1, false); }, veri.interval || 5000);
+    }
+    function playGuncelle() {
+      if (!btnPlay) { return; }
+      var ikon = btnPlay.querySelector(".material-symbols-outlined");
+      btnPlay.setAttribute("aria-pressed", elleDurdu ? "true" : "false");
+      btnPlay.setAttribute("aria-label", elleDurdu ? (veri.play || "") : (veri.pause || ""));
+      if (ikon) { ikon.textContent = elleDurdu ? "play_arrow" : "pause"; }
+    }
+
+    if (btnPrev) { btnPrev.addEventListener("click", function () { git(sayfa - 1, true); basla(); }); }
+    if (btnNext) { btnNext.addEventListener("click", function () { git(sayfa + 1, true); basla(); }); }
+    if (btnPlay) {
+      if (!veri.autoplay || azHareket) { btnPlay.hidden = true; }
+      btnPlay.addEventListener("click", function () { elleDurdu = !elleDurdu; playGuncelle(); basla(); });
+    }
+    
+    kar.addEventListener("mouseenter", function () { askida = true; dur(); });
+    kar.addEventListener("mouseleave", function () { askida = false; basla(); });
+    kar.addEventListener("focusin", function () { askida = true; dur(); });
+    kar.addEventListener("focusout", function (ev) { if (!kar.contains(ev.relatedTarget)) { askida = false; basla(); } });
+    
+    kar.setAttribute("tabindex", "0");
+    kar.addEventListener("keydown", function (ev) {
+      if (ev.key === "ArrowRight") { ev.preventDefault(); git(sayfa + (rtl ? -1 : 1), true); }
+      else if (ev.key === "ArrowLeft") { ev.preventDefault(); git(sayfa + (rtl ? 1 : -1), true); }
+    });
+    
+    var basX = null, basY = null;
+    viewport.addEventListener("pointerdown", function (ev) { basX = ev.clientX; basY = ev.clientY; });
+    viewport.addEventListener("pointerup", function (ev) {
+      if (basX === null) { return; }
+      var dx = ev.clientX - basX, dy = ev.clientY - basY;
+      basX = null;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) { git(sayfa + ((dx < 0) !== rtl ? 1 : -1), true); basla(); }
+    });
+    viewport.addEventListener("pointercancel", function () { basX = null; });
+
+    var rz = null;
+    window.addEventListener("resize", function () { clearTimeout(rz); rz = setTimeout(yerlestir, 120); });
+    
+    document.addEventListener("visibilitychange", function () { if (document.hidden) { dur(); } else { basla(); } });
+
+    if (ctrl) { ctrl.hidden = false; }
+    playGuncelle();
+    yerlestir();
+    basla();
+  })();
+</script>
+<section class="b0005-c3 b0005-c3-cerceveli-kart" id="c3-3bedbn">
+  <div class="b0005-c3-wrap">
+    <div class="b0005-c3-kutu">
+      <span class="b0005-c3-daire b0005-c3-daire-1" aria-hidden="true"></span>
+      <span class="b0005-c3-daire b0005-c3-daire-2" aria-hidden="true"></span>
+      <span class="b0005-c3-daire b0005-c3-daire-3" aria-hidden="true"></span>
+      <div class="b0005-c3-icerik">
+        <h2 class="b0005-c3-title">Bu akşam közbaşında</h2>
+        <p class="b0005-c3-text">Masanızı birkaç adımda ayırtın ya da WhatsApp’tan yazın; talebiniz demo olarak tarayıcınızda oluşturulur.</p>
+        <div class="b0005-c3-btns"><a class="b0005-c3-btn b0005-c3-btn-1" href="/tr/rezervasyon/"><span>Rezervasyon</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a><a class="b0005-c3-btn b0005-c3-btn-2" href="/tr/subeler/">Şubeler</a></div>
+      </div>
+      <div class="b0005-c3-yan"><div class="b0005-c3-kart"><div class="b0005-c3-kart-bas"><span class="b0005-c3-wa-ikon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><p class="b0005-c3-kart-title">Hemen ulaşın</p></div><a class="b0005-c3-num" href="tel:+903420000001"><bdi dir="ltr">+90 342 000 00 01</bdi></a><p class="b0005-c3-saat"><span class="material-symbols-outlined" aria-hidden="true">schedule</span><span><span class="b0005-c3-saat-etiket">Çalışma saatleri:</span> Her gün 17:00 – 00:30</span></p><a class="b0005-c3-wa" href="https://wa.me/903420000001?text=Merhaba%2C%20masa%20ay%C4%B1rtmak%20istiyorum." target="_blank" rel="noopener"><span class="b0005-c3-wa-ikon b0005-c3-wa-ikon-kucuk" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></span><span>WhatsApp&#39;tan yazın</span></a></div></div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+  <div id="footer"><footer class="f0000-f10 f0000-f10--koyu" role="contentinfo" id="f10-ygccmp">
+  <div class="f0000-f10__band"><div class="f0000-f10__bandin"><div class="f0000-f10__bandtext"><h2 class="f0000-f10__bandtitle">Haftanın közü</h2><p class="f0000-f10__bandp">Yeni şişler ve mevsim tabakları e-postanıza gelsin (demo — kayıt tutulmaz).</p></div><form class="f0000-f10__nlform" novalidate><label class="f0000-f10__nllabel" for="f10-ygccmp-nl">E-posta adresiniz</label><div class="f0000-f10__nlrow"><input class="f0000-f10__nlinput" id="f10-ygccmp-nl" name="email" type="email" inputmode="email" autocomplete="email" required aria-describedby="f10-ygccmp-nlerr" /><button type="submit" class="f0000-f10__nlbtn"><span>Abone ol</span><span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></button></div><p class="f0000-f10__nlerr" id="f10-ygccmp-nlerr" role="status" aria-live="polite"></p><p class="f0000-f10__nlkvkk">Abone olarak e-posta adresinizin bülten amacıyla işlenmesini kabul edersiniz. İstediğiniz an ayrılabilirsiniz.</p></form></div></div>
+  <div class="f0000-f10__main f0000-f10__main--c5">
+    <div class="f0000-f10__col f0000-f10__brand">
+      <a href="/tr/" class="f0000-f10__logo" aria-label="Anasayfa - Ateşhane">
+        <img src="/img/logo.png" alt="Ateşhane Logo" loading="lazy" />
+      </a>
+      <p class="f0000-f10__about">Meşe közünde mangal, taş fırından hamur işi. Kurgusal demo ocakbaşı.</p>
+      
+    </div>
+    <nav class="f0000-f10__col f0000-f10__pages" aria-label="Navigasyon">
+      <h3 class="f0000-f10__title">Sayfalar</h3>
+      <ul class="f0000-f10__list"><li><a class="f0000-f10__link" href="/tr/">Anasayfa</a></li><li><a class="f0000-f10__link" href="/tr/menu/">Menü</a></li><li><a class="f0000-f10__link" href="/tr/rezervasyon/">Rezervasyon</a></li><li><a class="f0000-f10__link" href="/tr/galeri/">Galeri</a></li><li><a class="f0000-f10__link" href="/tr/subeler/">Şubeler</a></li><li><a class="f0000-f10__link" href="/tr/alerjen-bilgisi/">Alerjen bilgisi</a></li><li><a class="f0000-f10__link" href="/tr/iletisim/">İletişim</a></li></ul>
+    </nav>
+    <div class="f0000-f10__col f0000-f10__services"><h3 class="f0000-f10__title">Menü</h3><ul class="f0000-f10__list"><li><a class="f0000-f10__link" href="/tr/menu/">Mangaldan</a></li><li><a class="f0000-f10__link" href="/tr/menu/">Taş fırından</a></li><li><a class="f0000-f10__link" href="/tr/menu/">Mezeler</a></li><li><a class="f0000-f10__link" href="/tr/alerjen-bilgisi/">Alerjen bilgisi</a></li></ul></div>
+    <div class="f0000-f10__col f0000-f10__contact"><h3 class="f0000-f10__title">İletişim</h3><ul class="f0000-f10__list f0000-f10__list--ikon"><li><span class="material-symbols-outlined" aria-hidden="true">location_on</span><span>Köz Sokak No: 7, Şehitkamil, Gaziantep (kurgusal adres)</span></li><li><span class="material-symbols-outlined" aria-hidden="true">call</span><a class="f0000-f10__link" href="tel:+903420000001" dir="ltr">+90 342 000 00 01</a></li><li><span class="material-symbols-outlined" aria-hidden="true">mail</span><a class="f0000-f10__link" href="mailto:masa@ateshane.example">masa@ateshane.example</a></li></ul></div>
+    <div class="f0000-f10__col f0000-f10__hours"><h3 class="f0000-f10__title">Çalışma Saatleri</h3><dl class="f0000-f10__dl"><div class="f0000-f10__hour"><dt>Pazartesi – Perşembe</dt><dd>17:00 – 00:00</dd></div><div class="f0000-f10__hour"><dt>Cuma – Cumartesi</dt><dd>17:00 – 00:30</dd></div><div class="f0000-f10__hour"><dt>Pazar</dt><dd>17:00 – 23:30</dd></div></dl></div>
+  </div>
+  <div class="f0000-f10__bottom">
+    <p class="f0000-f10__rights">&copy; 2026 Ateşhane. Tüm hakları saklıdır.</p>
+    <ul class="f0000-f10__legal"><li><a class="f0000-f10__link" href="/tr/gizlilikpolitikasi/">Gizlilik politikası</a></li><li><a class="f0000-f10__link" href="/tr/kisiselveriler/">Kişisel veriler</a></li><li><a class="f0000-f10__link" href="/tr/yasaluyari/">Yasal uyarı</a></li></ul>
+    <div class="f0000-f10__bottomend">
+      <nav class="wm-langbar" aria-label="Dil Seçici"><ul><li class="wm-lang-item wm-lang-active"><a href="/tr/" hreflang="tr" lang="tr" aria-current="true">TR</a></li><li class="wm-lang-item"><a href="/en/" hreflang="en" lang="en">EN</a></li><li class="wm-lang-item"><a href="/ar/" hreflang="ar" lang="ar">AR</a></li></ul></nav>
+      <button type="button" class="f0000-f10__top" aria-label="Yukarı çık" title="Yukarı çık"><span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span></button>
+    </div>
+  </div>
+  <script type="application/json" id="f10-ygccmp-veri">{"gonderim":"mailto","mailto":"masa@ateshane.example","subject":"Bülten aboneliği","body":"Merhaba, bültene abone olmak istiyorum.","err":"Geçerli bir e-posta adresi girin.","ok":"E-posta uygulamanız açılıyor; aboneliği oradan onaylayın."}</script>
+</footer>
+
+
+
+<script>
+  (function () {
+    var kok = document.getElementById("f10-ygccmp");
+    if (!kok || kok.getAttribute("data-f10-hazir") === "1") { return; }
+    kok.setAttribute("data-f10-hazir", "1");
+    var veri = {};
+    try { veri = JSON.parse(document.getElementById("f10-ygccmp-veri").textContent); } catch (e) { veri = {}; }
+
+    
+    var ust = kok.querySelector(".f0000-f10__top");
+    if (ust) {
+      ust.addEventListener("click", function () {
+        var yumusak = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        try { window.scrollTo({ top: 0, behavior: yumusak ? "smooth" : "auto" }); } catch (e) { window.scrollTo(0, 0); }
+        var hedef = document.querySelector("#header, header, main, body");
+        if (hedef && hedef.focus) { hedef.setAttribute("tabindex", "-1"); hedef.focus({ preventScroll: true }); }
+      });
+    }
+
+    
+    var form = kok.querySelector(".f0000-f10__nlform");
+    if (!form) { return; }
+    var girdi = form.querySelector("input[type=email]");
+    var durum = form.querySelector(".f0000-f10__nlerr");
+    function yaz(metin, hata) {
+      if (!durum) { return; }
+      durum.textContent = metin || "";
+      durum.className = "f0000-f10__nlerr" + (metin ? " is-on" : "") + (hata ? " is-err" : " is-ok");
+      if (girdi) { if (hata) { girdi.setAttribute("aria-invalid", "true"); } else { girdi.removeAttribute("aria-invalid"); } }
+    }
+    if (girdi) { girdi.addEventListener("input", function () { yaz("", false); }); }
+    form.addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var v = girdi ? String(girdi.value || "").trim() : "";
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) { yaz(veri.err || "", true); if (girdi) { girdi.focus(); } return; }
+      if (veri.gonderim !== "mailto" || !veri.mailto) { return; }
+      yaz(veri.ok || "", false);
+      window.location.href = "mailto:" + veri.mailto + "?subject=" + encodeURIComponent(veri.subject || "") + "&body=" + encodeURIComponent((veri.body || "") + "\r\n" + v);
+    });
+  })();
+</script>
+<div class="f0001-dk" role="contentinfo" aria-label="Demo bilgisi">
+  <p class="f0001-dk-text">Bu demo <bdi class="f0001-dk-brand" dir="ltr">Webyapar</bdi> tarafından hazırlanmıştır — <a class="f0001-dk-cta" href="https://webyapar.com/temalar#restoran-2" target="_blank" rel="noopener noreferrer"><span>Bu temayı iste</span><span class="mx-visually-hidden"> (yeni sekmede açılır)</span><span class="material-symbols-outlined mx-flip f0001-dk-arrow" aria-hidden="true">arrow_forward</span></a></p>
+</div>
+
+<nav class="wm-yasal" aria-label="Kurumsal ve Yasal" style="box-sizing:border-box;width:100%;max-width:100%;padding:12px 16px;background:var(--mx-site-bg, #141110);color:var(--mx-site-text, #ffffff);display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;justify-content:center;text-align:center;overflow-wrap:anywhere"><strong style="color:var(--mx-site-text, #ffffff)">Kurumsal ve Yasal</strong><a href="/tr/misyon/" style="color:var(--mx-site-text, #ffffff);padding:6px 0;text-decoration:underline;min-width:0">Misyon</a><a href="/tr/vizyon/" style="color:var(--mx-site-text, #ffffff);padding:6px 0;text-decoration:underline;min-width:0">Vizyon</a><a href="/tr/kalitepolitikamiz/" style="color:var(--mx-site-text, #ffffff);padding:6px 0;text-decoration:underline;min-width:0">Kalite Politikamız</a><a href="/tr/kullanicahaklari/" style="color:var(--mx-site-text, #ffffff);padding:6px 0;text-decoration:underline;min-width:0">Kullanıcı Hakları</a></nav></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=zj3j1"></script>
+  <script defer src="/src/mx-store.js?v=zj3j1"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=zj3j1"></script>
+  <script defer src="/src/cookie.js?v=zj3j1"></script>
+
+</body>
+
+</html>
