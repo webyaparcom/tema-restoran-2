@@ -31,7 +31,13 @@
         "logoimg": "",
         "langcolor": "currentColor",
         "langbg": "transparent",
-        "tekSatir": ""
+        "tekSatir": "",
+        "logoDark": "",
+        "duzen": "",
+        "ctaText": "",
+        "ctaHref": "",
+        "temaDugmesi": "",
+        "temaAnahtar": ""
       },
       "version": "1.0.0",
       "icon": "menu"
@@ -514,6 +520,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "id": "ey6ff6",
@@ -3572,9 +3584,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Her gün 17:00 – 00:30",
+          "en": "Daily 17:00 – 00:30",
+          "ar": "يوميًا 17:00 – 00:30"
         },
         "callBtn": {
           "tr": "Ara",
@@ -3587,9 +3599,9 @@
           "ar": "واتساب"
         },
         "waText": {
-          "tr": "Hızlı yanıt için yazın",
-          "en": "Message us for a quick reply",
-          "ar": "راسلنا للحصول على رد سريع"
+          "tr": "Masa için hızlı yanıt",
+          "en": "Quick reply for a table",
+          "ar": "رد سريع لحجز طاولة"
         },
         "waBtn": {
           "tr": "Mesaj gönder",
@@ -3602,9 +3614,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Rezervasyon ve grup yemekleri için",
+          "en": "For bookings and group dinners",
+          "ar": "للحجوزات والعشاء الجماعي"
         },
         "mailBtn": {
           "tr": "E-posta gönder",

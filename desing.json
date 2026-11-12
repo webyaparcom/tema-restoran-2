@@ -25,7 +25,7 @@
     "52vo7d"
   ],
   "headtop": "",
-  "headbottom": "<style>#header > [class*=\"-m10\"]:not([class*=\"-m10-sabit\"]){top:var(--mx-demo-bandi-h,48px)}</style>",
+  "headbottom": "<style>#header > [class*=\"-m10\"]:not([class*=\"-m10-sabit\"]){top:var(--mx-demo-bandi-h,48px)}</style><style id=\"wy-demo-bandi-menu\">#header>header[class*=\"-m10\"]:not([class*=\"-akista\"]){top:var(--mx-demo-bandi-h,0px)}</style>",
   "colors": {
     "lite": [
       {
